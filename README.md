@@ -1,7 +1,5 @@
 # git-practice
 
-# git-branches
-
 - 设定有多个情况，分别如下：
 
 1. 情况一：`新增文件 docOne`，本地生成一个 branch:team/hodgepodge 上传至 github，不执行 pull request。`（模拟小组 branch 初始化。）`
