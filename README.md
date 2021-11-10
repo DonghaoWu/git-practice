@@ -58,6 +58,13 @@ $ git commit -m'created branch newFeature with docThree.'
 $ git push origin newFeature
 ```
 
+- 第三行可以替代为：
+
+```bash
+$ git pull origin team/hodgepodge:localTeam
+$ git checkout localTeam
+```
+
 - :gem: 此时 Github 上有三个 branch，可以选择 merge 之后删除 newFeature branch。
 - 此时本地 localTeam branch 只有 docOne 和 docTwo，main 一个都没有。
 
@@ -75,6 +82,13 @@ $ git push origin newFeature
 $ git checkout localTeam # 就算显示 Your branch is up to date with 'origin/team/hodgepodge'，还是需要执行 git pull 的
 $ git branch
 $ git pull
+```
+
+- 也可以这样
+
+```bash
+$ git pull origin team/hodgepodge:localTeam
+$ git checkout localTeam
 ```
 
 - :gem: 此时 Github 上有两个 branch。
